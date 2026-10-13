@@ -1,0 +1,5 @@
+﻿# Ignorar datos pesados
+*.npz
+
+# Ignorar material exclusivo del instructor
+privado/
