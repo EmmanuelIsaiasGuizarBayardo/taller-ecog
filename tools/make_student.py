@@ -1,7 +1,13 @@
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["nbformat>=5.10"]
+# ///
 """Deriva el notebook de alumno a partir del de instructor (fuente única).
 
 Uso (desde la raíz del repo):
-    python tools/make_student.py privado/taller_ecog_instructor.ipynb notebooks/taller_ecog_alumno.ipynb
+    uv run tools/make_student.py privado/taller_ecog_instructor.ipynb notebooks/taller_ecog_alumno.ipynb
+
+uv lee la cabecera ``# /// script`` (PEP 723) e instala nbformat solo para esa corrida.
 
 Convenciones:
 - ``### BEGIN SOLUTION`` / ``### END SOLUTION``: el bloque se elimina.

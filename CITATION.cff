@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "Si usas este material, cítalo así."
+title: "Taller: procesamiento de señales intracraneales (ECoG) con Python"
+abstract: >-
+  Taller práctico de neuroingeniería clínica: espectro de potencia, modelo 1/f,
+  envolvente de alta frecuencia, mapeo funcional y decodificación con registros
+  ECoG de pacientes.
+type: software
+authors:
+  - given-names: "Emmanuel Isaías"
+    family-names: "Guízar Bayardo"
+repository-code: "https://github.com/EmmanuelIsaiasGuizarBayardo/taller-ecog"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - ECoG
+  - neuroingeniería
+  - procesamiento de señales
+references:
+  - type: data
+    title: "A library of human electrocorticographic data and analyses"
+    authors:
+      - family-names: "Miller"
+        given-names: "K. J."
+    year: 2019
+    publisher:
+      name: "Stanford Digital Repository"
+    url: "https://purl.stanford.edu/zk881ps0522"
+    license: CC-BY-SA-4.0
+  - type: article
+    title: "A library of human electrocorticographic data and analyses"
+    authors:
+      - family-names: "Miller"
+        given-names: "K. J."
+    journal: "Nature Human Behaviour"
+    year: 2019
+    volume: 3
+    issue: "11"
+    start: 1225
+    end: 1235
+    doi: "10.1038/s41562-019-0678-3"
