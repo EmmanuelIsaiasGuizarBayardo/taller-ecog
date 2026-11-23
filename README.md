@@ -20,17 +20,23 @@ descargan solos desde el *Release* `data-v1` de este repositorio.
 
 ## Figuras
 
-Figuras de Miller et al. (2012) bajo licencia CC BY; figuras de Miller et al. (2010), PNAS,
-reproducidas con fines educativos no comerciales citando la fuente.
+| Archivo en `img/` | Fuente | Licencia o permiso |
+|---|---|---|
+| `miller2012_fig1.jpg`, `miller2012_fig2.jpg`, `miller2012_fig3.jpg`, `miller2012_fig13.jpg` | Miller et al. (2012), *PLoS Computational Biology*, 8(9), e1002655, Figs. 1, 2, 3 y 13. https://doi.org/10.1371/journal.pcbi.1002655 | CC BY |
+| `miller2010_fig1.jpg`, `miller2010_fig2.jpg`, `miller2010_fig3.jpg`, `miller2010_fig5.jpg` | Miller et al. (2010), *PNAS*, 107(9), 4430–4435, Figs. 1, 2, 3 y 5. https://doi.org/10.1073/pnas.0913697107 | Sin licencia abierta. Aviso del artículo: “Freely available online through the PNAS open access option”. PNAS permite usar sus figuras sin pedir permiso con fines no comerciales y educativos, citando la fuente |
+
+Las figuras de PNAS se reproducen solo con fines educativos no comerciales. Quedan fuera de las
+licencias MIT y CC BY 4.0 de este repositorio, y su uso no implica aval de los autores, de PNAS ni
+de la National Academy of Sciences.
 
 ## Licencia
 
 | Qué | Licencia |
 |---|---|
 | Código: celdas del cuaderno y `tools/` | MIT (`LICENSE`) |
-| Texto didáctico del cuaderno | CC BY 4.0 |
+| Texto didáctico del cuaderno | CC BY 4.0, salvo las figuras de terceros |
 | Datos del Release `data-v1` | CC BY-SA 4.0, de Miller (2019) |
-| Figuras en `img/` | La de su fuente; ver "Figuras" |
+| Figuras en `img/` | La de su fuente, que no siempre es abierta; ver "Figuras" |
 
 Para citar el taller, GitHub genera la referencia desde `CITATION.cff` con el botón
 **Cite this repository**.
